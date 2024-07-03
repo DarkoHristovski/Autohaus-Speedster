@@ -58,23 +58,6 @@ function website_styles_and_scripts(){
 		'website' => ['file' => '/assets/css/styles.css']
 	];
 	$scripts = [
-		'jquery' => ['file' => '/assets/js/jquery-3.4.1.min.js', 'dependencies' => []],
-		'jquery-ui' => ['file' => '/assets/js/jquery-ui.min.js', 'dependencies' => ['jquery']],
-		'tweenmax' => ['file' => '/assets/js/scrollmagic/TweenMax.min.js', 'dependencies' => ['jquery']],
-		'scrollmagic' => ['file' => '/assets/js/scrollmagic/ScrollMagic.min.js', 'dependencies' => ['jquery']],
-		'scrollmagic-jquery' => ['file' => '/assets/js/scrollmagic/plugins/jquery.ScrollMagic.min.js', 'dependencies' => ['jquery','scrollmagic']],
-		'scrollmagic-gsap' => ['file' => '/assets/js/scrollmagic/plugins/animation.gsap.min.js', 'dependencies' => ['jquery','scrollmagic']],
-		'scrollmagic-velocity' => ['file' => '/assets/js/scrollmagic/plugins/animation.velocity.min.js', 'dependencies' => ['jquery','scrollmagic']],
-		'scrollmagic-indicators' => ['file' => '/assets/js/scrollmagic/plugins/debug.addIndicators.min.js', 'dependencies' => ['jquery','scrollmagic']],
-		'owl-carousel' => ['file' => '/assets/js/owl.carousel.min.js', 'dependencies' => ['jquery']],
-		'owl-carousel-linked' => ['file' => '/assets/js/owl.carousel.linked.js', 'dependencies' => ['jquery','owl-carousel']],
-		'object-fit-images' => ['file' => '/assets/js/ofi.min.js', 'dependencies' => ['jquery']],
-		'object-fit-videos' => ['file' => '/assets/js/object-fit-videos.min.js', 'dependencies' => ['jquery']],
-		'imagesloaded' => ['file' => '/assets/js/imagesloaded.pkgd.min.js', 'dependencies' => ['jquery']],
-		'masonry' => ['file' => '/assets/js/masonry.pkgd.min', 'dependencies' => ['jquery']],
-		'kinetic' => ['file' => '/assets/js/jquery.kinetic.js', 'dependencies' => ['jquery']],
-		'touch-swipe' => ['file' => '/assets/js/jquery.touchSwipe.min.js', 'dependencies' => ['jquery']],
-		'select2' => ['file' => '/assets/js/select2.min.js', 'dependencies' => ['jquery']],
 		'website' => ['file' => '/assets/js/main.js', 'dependencies' => ['jquery','owl-carousel']],
 	];
 	if ( !is_admin() ) {

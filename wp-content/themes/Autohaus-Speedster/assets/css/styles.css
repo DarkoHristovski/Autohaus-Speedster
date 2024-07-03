@@ -43,6 +43,22 @@ body {
   flex-wrap: wrap;
 }
 
+.btn {
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+  display: inline-block;
+  background-color: green;
+  text-transform: capitalize;
+  font-size: 2rem;
+  border: 1px solid green;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: green;
+}
+
 /*--- Hero Section ---*/
 
 .hero-section {
@@ -81,18 +97,59 @@ body {
   line-height: 1.3;
 }
 
-.hero-section-link {
-  color: white;
-  border-radius: 5px;
-  padding: 15px;
-  display: inline-block;
-  background-color: green;
-  text-transform: capitalize;
-  font-size: 2rem;
-  border: 1px solid green;
+
+
+/*--- Latest Blog Post Section ---*/
+
+.latest-blog-post-section {
+  padding: 100px 0;
 }
 
-.hero-section-link:hover {
-  background-color: transparent;
-  color: green;
+.latest-blog-post-section .d-flex {
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
+.latest-blog-post-section .card {
+  flex-shrink: 1;
+  margin: 15px 0;
+  border: 1px solid black;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 32%;
+  display: flex;
+ 
+}
+
+.direction-column{
+    flex-direction: column;
+}
+
+.latest-blog-post-section .card .img-wrapper {
+  height: 300px;
+  width: 100%;
+}
+.latest-blog-post-section .card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.latest-blog-post-section .card h3 {
+  margin-bottom: 20px;
+  }
+
+  .latest-blog-post-section .card .btn {
+    margin-top: 40px;
+    align-self: self-start;
+    }
+
+.latest-blog-post-section .card-text,
+.latest-blog-post-section .card-text p {
+    flex-grow: 1;
+  }
+
+  .latest-blog-post-section .card-text{
+  padding: 20px;
+  }
+

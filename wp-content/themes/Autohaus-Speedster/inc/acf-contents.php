@@ -19,18 +19,6 @@ function get_final_content($content){
 }
 
 function get_website_contents(){
-	/*
-	$member_is_allowed = true;
-	if(class_exists('SwpmPermission')){
-		$permission = SwpmPermission::get_instance($auth->get('membership_level'));
-		$id = 2;
-		if($permission->is_permitted($id)) {
-		} else {
-			//User’s level DOES NOT have access to this post.
-			$member_is_allowed = false;
-		}
-	}
-	*/
 	if(is_home()){
 		if( have_rows('modules', get_option('page_for_posts')) ){
 			while ( have_rows('modules', get_option('page_for_posts')) ) {

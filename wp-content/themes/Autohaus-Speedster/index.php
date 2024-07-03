@@ -15,7 +15,8 @@ get_header();
 if(is_single()){
 	get_website_contents();
 	if ( have_posts() ) {
-		get_template_part( 'template-parts/partials/related-news' );
+get_template_part( 'template-parts/partials/news-header' );
+get_template_part( 'template-parts/partials/news-meta' );
 	}
 }else{
 	get_website_contents();

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Header file for essentry
  *
@@ -12,7 +13,7 @@
 <html class="no-js">
 
 <head>
-    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <meta name="format-detection" content="telephone=no">
@@ -26,47 +27,32 @@
     <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
     <?php wp_head(); ?>
-	<script type="text/javascript">
+    <script type="text/javascript">
 
-	</script>
+    </script>
 </head>
 
 <body <?php body_class(); ?>>
 
     <?php wp_body_open(); ?>
     <header class="header">
-        <div class="container-fluid">
-            <div class="wrapper">
-
-
-                <div class="navigation">
-                    <nav class="left-navigation">
-                        <?php
-					echo get_website_menu('Main');
-					/*
-                    <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/">Gebäude</a></li>
-                        <li><a href="/">Services</a></li>
-                        <li><a href="/">Lage</a></li>
-                    </ul>
-					*/
-					?>
-                    </nav>
+        <div class="page-wrapper">
+            <div class="container">
+                <div class="navigation d-flex">
                     <div class="logo">
                         <a href="<?php echo home_url(); ?>">
+                            Autohaus Speedster
                         </a>
                     </div>
-                    <nav class="right-navigation">
-
-
+                    <nav class="d-flex">
+                        <?php
+                        echo get_website_menu('Main');
+                        ?>
                     </nav>
                 </div>
-                <a class="burger mobile-menu-button" href="/">
+                <div class="burger mobile-menu-button">
                     <span></span>
-                </a>
-
+            </div>
             </div>
         </div>
-
     </header>

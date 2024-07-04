@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "brand": "Toyota",
+    "model": "Camry",
+    "price": "$25,000",
+    "image": "https://cdn.motor1.com/images/mgl/bgENQj/s1/2025-toyota-camry.jpg"
+  },
+  {
+    "id": 2,
+    "brand": "Honda",
+    "model": "Accord",
+    "price": "$27,500",
+    "image": "https://www.detroitnews.com/gcdn/presto/2021/07/19/PDTN/0fcd38ed-485b-4e25-911a-6fb726e77ac7-HondaAccord_fr3-4-twisties.jpg?crop=2995,2247,x400,y0"
+  },
+  {
+    "id": 3,
+    "brand": "Ford",
+    "model": "Mustang",
+    "price": "$35,000",
+    "image": "https://cdn.motor1.com/images/mgl/eoRxyA/s3/ford-mustang-gt-2024.jpg"
+  },
+  {
+    "id": 4,
+    "brand": "Chevrolet",
+    "model": "Camaro",
+    "price": "$32,500",
+    "image": "https://www.autoscout24.de/cms-content-assets/6w3WbaufrPylttArJPqS36-a4a52ac6901cfcb1b578f19e8644dbbe-ford-mustang-l-01-1100.jpg"
+  },
+  {
+    "id": 5,
+    "brand": "BMW",
+    "model": "3 Series",
+    "price": "$40,000",
+    "image": "https://www.topgear.com/sites/default/files/cars-car/image/2022/09/1-BMW-3-Series.jpg?w=1280&h=720"
+  },
+  {
+    "id": 6,
+    "brand": "Mercedes-Benz",
+    "model": "C-Class",
+    "price": "$42,000",
+    "image": "https://www.topgear.com/sites/default/files/2021/11/Mercedes_C300D_0000.jpg"
+  },
+  {
+    "id": 7,
+    "brand": "Audi",
+    "model": "A4",
+    "price": "$38,500",
+    "image": "https://www.autoscout24.de/cms-content-assets/3B9Y6H0d0IKW0ME1vvMYED-6c735012b9f221707af8eb7bf297c004-Audi-A4-2008-1280-0b-1100.jpg"
+  },
+  {
+    "id": 8,
+    "brand": "Tesla",
+    "model": "Model S",
+    "price": "$80,000",
+    "image": "https://i.auto-bild.de/ir_img/3/5/8/2/7/3/9/fadebd34a7b7146b.jpg"
+  },
+  {
+    "id": 20,
+    "brand": "Hyundai",
+    "model": "Sonata",
+    "price": "$23,500",
+    "image": "https://motorcar.com.ua/wp-content/uploads/2020/09/2021-hyundai-sonata-n-line-7.jpg"
+  },
+  {
+    "id": 9,
+    "brand": "Kia",
+    "model": "Optima",
+    "price": "$22,000",
+    "image": "https://www.autoscout24.de/cms-content-assets/2FqQbhfojqVpT5hrj95LfP-2c62d6601c81e541d816f9fd492fda0d-kia-optima-front2-1100.jpg"
+  },
+  {
+    "id": 10,
+    "brand": "Nissan",
+    "model": "Altima",
+    "price": "$26,000",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/2019-nissan-altima-102-1538074559.jpg"
+  },
+  {
+    "id": 11,
+    "brand": "Subaru",
+    "model": "Impreza",
+    "price": "$21,500",
+    "image": "https://cdn.motor1.com/images/mgl/2NAWog/s3/1998-subaru-impreza-sti-22b-formerly-owned-by-colin-mcrae.jpg"
+  },
+  {
+    "id": 12,
+    "brand": "Mazda",
+    "model": "CX-5",
+    "price": "$30,000",
+    "image": "https://cdn.motor1.com/images/mgl/W8o0pj/s1/mazda-cx-5-e-skyactiv-d-184-awd-2023-im-test.webp"
+  },
+  {
+    "id": 13,
+    "brand": "Lexus",
+    "model": "RX",
+    "price": "$45,000",
+    "image": "https://fs.hubspotusercontent00.net/hubfs/2684054/2022-LexusRX-350-F-Sport-feature-carprousa.jpg"
+  },
+  {
+    "id": 14,
+    "brand": "Infiniti",
+    "model": "Q50",
+    "price": "$37,000",
+    "image": "https://cdn.motor1.com/images/mgl/L9WQl/s1/2021-infiniti-q50-signature-edition.jpg"
+  },
+  {
+    "id": 15,
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "price": "$28,000",
+    "image": "https://www.autoscout24.de/cms-content-assets/1yu5exyRV2NPYKwHLeH72e-26ab9fa0e45c5f2ab58a1085d1f84836-vw-passat-gte-front-1100.jpeg"
+  },
+  {
+    "id": 16,
+    "brand": "Porsche",
+    "model": "911",
+    "price": "$110,000",
+    "image": "https://p6.focus.de/img/auto/id_259985730/porsche-911-2024-facelift-992.2-kriegt-irren-performance-hybrid.jpg?im=Crop%3D%280%2C0%2C1912%2C1080%29%3BResize%3D%281200%29&impolicy=perceptual&quality=mediumHigh&hash=849a86e796ccd781fa6e015fcc4c404e82ff147299aac96e867fa1ee5030ce4b"
+  },
+  {
+    "id": 17,
+    "brand": "Jaguar",
+    "model": "XE",
+    "price": "$50,000",
+    "image": "https://www.autozeitung.de/assets/field/image/jaguar-xe-2015-01.jpg"
+  },
+  {
+    "id": 18,
+    "brand": "Land Rover",
+    "model": "Range Rover",
+    "price": "$95,000",
+    "image": "https://cdn.motor1.com/images/mgl/1mGLW/s3/range-rover-2022.jpg"
+  },
+  {
+    "id": 19,
+    "brand": "Volvo",
+    "model": "XC60",
+    "price": "$55,000",
+    "image": "https://assets.adac.de/image/upload/ar_16:9,c_fill,f_auto,g_auto,q_auto:eco,w_1500/v1/ADAC-eV/KOR/Bilder/PR/volvo-xc60-seite-2111_xloomf.jpeg"
+  }
+]

@@ -6,12 +6,12 @@ $link = get_sub_field('link');
 
 <?php if ($background_img) : ?>
     <section class="hero-section background-img" style="background-image:url(<?php echo $background_img['url']; ?>);">
-    <div class="page-wrapper">
-        <div class="container">
+        <div class="page-wrapper">
+            <div class="container">
                 <div class="hero-section-text d-flex">
                     <?php if ($text) : ?>
                         <div class="text">
-                        <?php echo $text; ?>
+                            <?php echo $text; ?>
                         </div>
                         <a class="btn" target="_blank" href="<?php echo $link['url']; ?>"><?php echo $link['title'] ?></a>
                     <?php endif; ?>
@@ -19,4 +19,4 @@ $link = get_sub_field('link');
             </div>
         </div>
     </section>
-    <?php endif ;?>
+<?php endif; ?>
